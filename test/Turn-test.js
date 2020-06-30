@@ -34,6 +34,10 @@ describe('Turn', () => {
     expect(turn.correctAnswer).to.equal(false)
   })
 
+  it.only('should return a guess', () => {
+    expect(turn.returnGuess()).to.equal('object')
+  })
+
 
 
 
