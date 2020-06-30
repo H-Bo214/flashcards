@@ -9,6 +9,19 @@ class Turn {
     return this.guess;
   }
 
+  returnCard() {
+    return this.card;
+  }
+
+  evaluateGuess() {
+    return this.guess === this.card.correctAnswer ? this.correctAnswer = true : this.correctAnswer;
+  }
+
+  giveFeedback() {
+    return this.guess === this.card.correctAnswer ? 'Correct!' : 'Incorrect answer!'
+  }
+  
+
 }
 
 module.exports = Turn;
