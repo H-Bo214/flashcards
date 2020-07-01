@@ -39,15 +39,4 @@ it.only('should be able to get the number of cards in a deck', () => {
   expect(deck.countCards()).to.equal(3)
 })
 
-
-
-
-
-
-
-
-
-
-
-
 })
