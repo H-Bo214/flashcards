@@ -24,7 +24,7 @@ class Round {
     if (this.incorrectGuesses.length === 0) {
       return 100;
     } else {
-      let percentage = Math.floor(this.incorrectGuesses.length / this.turnCount * 100)
+      let percentage = Math.floor(((this.turnCount - this.incorrectGuesses.length) / this.turnCount ) * 100)
       return percentage;
     }
   };
