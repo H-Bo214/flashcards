@@ -21,7 +21,6 @@ class Turn {
     return this.guess === this.card.correctAnswer ? 'Correct!' : 'Incorrect answer!'
   }
   
-
 }
 
 module.exports = Turn;
