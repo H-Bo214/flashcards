@@ -22,7 +22,6 @@ git clone [remote-address] [what you want to name the repo]
 
 Once you have cloned the repo, change into the directory and install the library dependencies. Run:
 
-```bash
 npm install
 
 Run node index.js from the root directory in your terminal:
@@ -56,5 +55,5 @@ The game will begin
 
 ## In Action
 
-![Flash Cards demo](https://media.giphy.com/media/RkJy64cCQkdQrehGqJ/giphy.gif)
+![Desktop Demo](https://media.giphy.com/media/RkJy64cCQkdQrehGqJ/giphy.gif)
 
