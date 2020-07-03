@@ -56,5 +56,5 @@ The game will begin
 
 ## In Action
 
-![Flash Cards demo](https://media.giphy.com/media/RkJy64cCQkdQrehGqJ/source.mp4)
+![Flash Cards demo](https://media.giphy.com/media/RkJy64cCQkdQrehGqJ/giphy.gif)
 
